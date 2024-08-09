@@ -1,0 +1,55 @@
+.navbar-menu-mobile {
+  display: none;
+}
+
+button.menu-close-btn {
+  display: none;
+}
+
+.menu-user-name {
+  display: none;
+}
+.nav-social-media {
+  display: none;
+}
+
+.navbar-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header.header-menu {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 16px 0;
+}
+
+.mobile-logo a img {
+  width: 41px;
+}
+
+.navbar-list-items .nav-link-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar-list-items .nav-link-list a {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--primary-font);
+  color: var(--white-color);
+}
+
+ul.social-media-list li a img {
+  width: 28px;
+}
+.nav-file-list ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-file-list ul li img {
+  width: 32px;
+}
