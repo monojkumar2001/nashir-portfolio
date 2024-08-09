@@ -92,7 +92,7 @@ body {
   font-weight: 400;
   font-family: var(--body-font);
   line-height: 28px;
-  background: #1a1a1a;
+  background: #1a1a1a !important ;
 }
 
 * {
