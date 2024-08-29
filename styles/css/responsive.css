@@ -264,4 +264,7 @@
   .hero-scroll-item span {
     line-height: 1;
   }
+  .hero-scroll-item span img {
+    height: 12px;
+  }
 }
