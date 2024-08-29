@@ -18,12 +18,12 @@ function Home() {
   return (
     <>
       <Head>
-        <title>NFT Website Development Services |nft constructer</title>
+        <title>Digital Product Designer</title>
         <link rel="icon" type="image" href="/favicon.png"></link>
       </Head>
       {/* ========= Hero Section ==============*/}
-      <section className="hero-section" id="hero">
-        <div className="hero-wrapper cpb-7">
+      <section className="hero-section cpb-7" id="hero">
+        <div className="hero-wrapper">
           <div className="hero-img">
             <img src="/assets/images/home/hero.png" alt="" />
           </div>
@@ -88,7 +88,7 @@ function Home() {
         </div>
       </section>
       {/* =========== Design Study ============ */}
-      <section className="design cpb-7 cpt-7" id="design">
+      <section className="design cpb-7 cpt-7" id="courses">
         <div className="container">
           <div className="design-wrapper">
             <div className="section-header">
@@ -152,7 +152,7 @@ function Home() {
         </div>
       </section>
       {/* =========== Jobs ============ */}
-      <section className="jobs cpb-7 cpt-7" id="jobs">
+      <section className="jobs cpb-7 cpt-7" id="experience">
         <div className="container">
           <div className="jobs-wrapper">
             <div className="section-header">
@@ -218,19 +218,19 @@ function Home() {
         </div>
       </section>
       {/* ========== Work & Project ============= */}
-      <section className="work-web cpb-7 cpt-7" id="work-web">
+      <section className="work-web cpb-7 cpt-7" id="project">
         <div className="container">
           <div className="work-web-wrapper">
             <div className="section-header">
               <div className="section-title">
-                <p>Achievement and </p>
-                <h4>Awards</h4>
+                <p>Work & </p>
+                <h4>Projects</h4>
               </div>
               <div className="section-title section-title-work">
                 <span>
                   <img src="/assets/images/icons/bottom-arrow.svg " alt="" />
                 </span>
-                <h4>Web</h4>
+                <h3>Web</h3>
               </div>
             </div>
             <div className="work-web-all-content cpt-7">
@@ -381,8 +381,8 @@ function Home() {
               <div className="section-title">
                 <h4>Projects</h4>
               </div>
-              <div className="section-title">
-                <h4>Mobile</h4>
+              <div className="section-title-work">
+                <h3>Mobile</h3>
               </div>
             </div>
             <div className="work-mobile-content cpt-7">
@@ -480,9 +480,9 @@ function Home() {
         </div>
       </section>
       {/* ========= Work Process =========== */}
-      <section className="work-process cpb-7 cpt-7" id="work-process">
+      <section className="work-process cpb-7 cpt-7" id="work_process">
         <div className="container work-process-wrapper">
-          <div className="section-header">
+          <div className="section-header sticky-section">
             <div className="section-title">
               <p>My Work</p>
               <div className="process-title-item">
@@ -494,29 +494,30 @@ function Home() {
               <img src="/assets/images/icons/bottom-arrow.svg " alt="" />
             </span>
           </div>
-          <div className="work-phase-items">
+          <div className="work-phase-items ">
             <div className="work-phase-item">
               <h4>Phase 1</h4>
-              <a href="#phase1">Empathize</a>
+              <a href="#empathize">Empathize</a>
             </div>
             <div className="work-phase-item">
               <h4>Phase 2</h4>
-              <a href="#phase1">Define</a>
+              <a href="#define">Define</a>
             </div>
             <div className="work-phase-item">
               <h4>Phase 3</h4>
-              <a href="#phase1">Ideate</a>
+              <a href="#ideate">Ideate</a>
             </div>
             <div className="work-phase-item">
               <h4>Phase 4</h4>
-              <a href="#phase1">Prototype</a>
+              <a href="#prototype">Prototype</a>
             </div>
             <div className="work-phase-item">
               <h4>Phase 5</h4>
-              <a href="#phase1">Test</a>
+              <a href="#test">Test</a>
             </div>
           </div>
-          <div className="work-process-content cpt-7">
+          {/* ================= Empathize ==================== */}
+          <div className="work-process-content cpt-7" id="empathize">
             <div className="work-process-title">
               <div className="process-title">
                 <div>
@@ -644,19 +645,15 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="user-insight-content">
+            <div className="user-insight-content cpt-7">
               <h1 className="section-title cmb-4">User insights</h1>
               <div className="empathize-img">
                 <img src="/assets/images/home/insight.png" alt="" />
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      {/* ================= Define ==================== */}
-      <section className="defile cpb-7" id="define">
-        <div className="container">
-          <div className="define-wrapper">
+          {/* ================= Define ==================== */}
+          <div className="define-wrapper cpt-7" id="define">
             <div className="work-process-title">
               <div className="process-title">
                 <div>
@@ -802,12 +799,8 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      {/* ============= Ideate ==================== */}
-      <section className="ideate cpt-7 cpb-7" id="ideate">
-        <div className="container">
-          <div className="ideate-wrapper">
+          {/* ============= Ideate ==================== */}
+          <div className="ideate-wrapper cpt-7 cpb-7" id="ideate">
             <div className="work-process-title">
               <div className="process-title">
                 <div>
@@ -830,9 +823,6 @@ function Home() {
               <div className="ideate-site-desktop-img cpt-7">
                 <img src="/assets/images/home/site-map-dasktop.png" alt="" />
               </div>
-              <div className="ideate-site-mobile-img cpt-7">
-                <img src="/assets/images/home/site-map-mobile.png" alt="" />
-              </div>
             </div>
             <div className="ideate-content-item cpt-7">
               <h1 className="section-title cmb-4">Information Architecture</h1>
@@ -844,7 +834,7 @@ function Home() {
               </div>
             </div>
             <div className="ideate-content-item cpt-7">
-              <h1 className="section-title">User Flow</h1>
+              <h1 className="section-title cmb-4">User Flow</h1>
               <div className="ideate-site-desktop-img">
                 <img src="/assets/images/home/flow-desktop.png" alt="" />
               </div>
@@ -853,13 +843,8 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* ============= Prototype ============== */}
-      <section className="prototype cpb-7 cpt-7" id="prototype">
-        <div className="container">
-          <div className="prototype-wrapper">
+          {/* ============= Prototype ============== */}
+          <div className="prototype-wrapper cpt-7" id="prototype">
             <div className="work-process-title">
               <div className="process-title">
                 <div>
@@ -922,12 +907,8 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      {/* ============= Test =========== */}
-      <section className="test cpb-7 cpt-7" id="test">
-        <div className="container">
-          <div className="test-wrapper">
+          {/* ============= Test =========== */}
+          <div className="test-wrapper cpb-7 cpt-7" id="test">
             <div className="work-process-title">
               <div className="process-title">
                 <div>
@@ -955,6 +936,7 @@ function Home() {
           </div>
         </div>
       </section>
+
       {/* ============== My Blogs ========= */}
       <section className="blogs cpb-7 cpt-7" id="blogs">
         <div className="container">
@@ -974,6 +956,24 @@ function Home() {
               autoplay={{
                 delay: 2500,
                 disableOnInteraction: false,
+              }}
+              breakpoints={{
+                320: {
+                  slidesPerView: 1.1,
+                  spaceBetween: 10,
+                },
+                480: {
+                  slidesPerView: 1.2,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 30,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 40,
+                },
               }}
             >
               <SwiperSlide>
@@ -1088,6 +1088,24 @@ function Home() {
               autoplay={{
                 delay: 3500,
                 disableOnInteraction: false,
+              }}
+              breakpoints={{
+                320: {
+                  slidesPerView: 1.1,
+                  spaceBetween: 10,
+                },
+                480: {
+                  slidesPerView: 1.2,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 30,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 40,
+                },
               }}
             >
               <SwiperSlide>

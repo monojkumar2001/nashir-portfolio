@@ -1,0 +1,264 @@
+@media screen and (max-width: 1200px) {
+  .about-img {
+    width: 100%;
+  }
+  .work-phase-items {
+    overflow-y: auto;
+  }
+  .persona-img {
+    width: 100%;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hero-title {
+    font-size: 73px;
+  }
+  .about-title h1 small {
+    font-size: 45px;
+  }
+  .about-title {
+    margin-bottom: 30px;
+  }
+  .about-title h3 {
+    font-size: 45px;
+  }
+  .about-title h1 {
+    font-size: 60px;
+  }
+  .about-des-content p {
+    font-size: 26px;
+  }
+  .hero-scroll-item {
+    bottom: 6%;
+  }
+  @keyframes moveUpDown {
+    0% {
+      bottom: 6%;
+    }
+    50% {
+      bottom: 50px;
+    }
+    0% {
+      bottom: 6%;
+    }
+  }
+  .work-phase-items .work-phase-item h4 {
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-title {
+    font-size: 45px;
+  }
+  .hero-scroll-item {
+    animation: none;
+  }
+
+  .about-title h1 small {
+    font-size: 20px;
+  }
+  .about-title {
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+  .about-title h3 {
+    font-size: 24px;
+  }
+  .about-title h1 {
+    font-size: 24px;
+    position: relative;
+    top: 15px;
+  }
+
+  .about-content {
+    padding-top: 20px;
+  }
+  .about-img {
+    padding: 20px 0;
+  }
+  .about-des-content p {
+    font-size: 24px;
+  }
+  .section-header .section-title h4 {
+    font-size: 24px;
+  }
+  .design-content-item a {
+    font-size: 20px;
+  }
+  .design-content {
+    gap: 20px;
+  }
+  .design-content-item {
+    padding-bottom: 20px;
+  }
+  .achievement-card-items {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .work-web-all-content {
+    display: flex;
+    overflow-y: auto;
+    gap: 15px;
+  }
+  .work-mobile-content {
+    display: flex;
+    overflow-y: auto;
+    gap: 15px;
+  }
+  .work-web-card-item {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 0px;
+  }
+  .work-web-card {
+    width: 450px;
+  }
+  .work-web-card-item:nth-child(even) {
+    padding-left: 0;
+  }
+  .work-web-card-item:nth-child(odd) {
+    padding-right: 0;
+  }
+  .section-title-work h3 {
+    font-size: 20px;
+  }
+  .work-web-content {
+    padding: 15.5px 12px;
+  }
+  .work-web-title {
+    font-size: 16px;
+  }
+  .work-web-content p {
+    font-size: 14px;
+  }
+  .view-all-btn {
+    display: none;
+  }
+  section#work_process {
+    background: #000;
+  }
+  .work-mobile-content .work-web-card-item {
+    margin-bottom: 0px;
+  }
+  .process-title-item {
+    align-items: flex-start;
+    gap: 16px;
+    flex-direction: column;
+  }
+  .process-title-item h5 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  .work-phase-items .work-phase-item a {
+    font-size: 16px;
+  }
+  .work-phase-items .work-phase-item h4 {
+    font-size: 12px;
+    padding-bottom: 0px;
+  }
+  .work-phase-items {
+    background: #000;
+  }
+  .process-title span {
+    font-size: 28px;
+  }
+  .process-title h1 {
+    font-size: 20px;
+    bottom: 0;
+  }
+  .process-title {
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+  .work-process-title p {
+    font-size: 16px;
+  }
+  .process-card-items {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .title-2 {
+    font-size: 20px;
+  }
+  .process-card-item p {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  .empathize-image-content .empathize-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .empathize-image-content p {
+    font-size: 16px;
+  }
+  .section-title {
+    font-size: 20px;
+  }
+  .audience-content p {
+    font-size: 16px;
+  }
+  p.user-text-dis {
+    font-size: 16px;
+  }
+  .user-stories-list p {
+    font-size: 16px;
+  }
+  ul.user-stories-lists {
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .prototype-img-item {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-left h1 {
+    font-size: 40px;
+  }
+  .footer-left a {
+    font-size: 20px;
+  }
+  .footer-right .footer-user-title {
+    font-size: 24px;
+  }
+  .footer-right .social-media-list a img {
+    width: 24px;
+  }
+  .footer-right .social-media-list {
+    gap: 20px;
+  }
+  .footer-wrapper {
+    align-items: inherit;
+  }
+  .footer {
+    padding: 30px 0;
+  }
+  .scroll-top-btn {
+    position: absolute;
+    right: 0;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero-title {
+    font-size: 35px;
+  }
+  .hero-scroll-item p {
+    font-size: 6px;
+    line-height: 0;
+  }
+  .title-item1 {
+    top: 12%;
+    right: 35%;
+  }
+  .work-web-card {
+    width: 300px;
+  }
+  .title-item2 {
+    top: 34%;
+    right: 13%;
+  }
+}

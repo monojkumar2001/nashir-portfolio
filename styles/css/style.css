@@ -231,6 +231,12 @@ button:focus {
   .cpb-7 {
     padding-bottom: 60px;
   }
+  .cmt-4 {
+    margin-top: 30px;
+  }
+  .cmb-4 {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -263,6 +269,7 @@ button:focus {
 
 .hero-section {
   background-color: var(--black-color);
+  padding-top: 78px;
 }
 .hero-img img {
   width: 100%;
@@ -314,10 +321,22 @@ button:focus {
 }
 .hero-scroll-item {
   position: absolute;
-  bottom: 16%;
+  bottom: 10%;
   display: flex;
   align-items: center;
   flex-direction: column;
+  animation: moveUpDown 3s ease-in-out infinite;
+}
+@keyframes moveUpDown {
+  0% {
+    bottom: 10%;
+  }
+  50% {
+    bottom: 100px; 
+  }
+  0% {
+    bottom: 10%;
+  }
 }
 .section-header {
   display: flex;
@@ -376,7 +395,7 @@ button:focus {
   backface-visibility: hidden;
 }
 .about-img:hover img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .about-img img {
   transition: all 0.3s ease-in-out;
@@ -420,6 +439,9 @@ button:focus {
 .design-content-item a {
   font-size: 36px;
   position: relative;
+  color: var(--white-color);
+}
+.design-content-item a:hover {
   color: var(--white-color);
 }
 .design-content-item a::before {
@@ -469,6 +491,10 @@ button:focus {
 }
 .section-title-work {
   text-align: end;
+}
+.section-title-work h3{
+font-size: 40px;
+margin-top: 20px;
 }
 .work-web-card-item {
   display: grid;
@@ -543,12 +569,26 @@ button:focus {
   font-size: 24px;
   font-weight: 600;
 }
+/* .work-phase-items {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+} */
+
 .work-phase-items {
   margin-top: 40px;
   display: flex;
   align-items: center;
   gap: 80px;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 78px; 
+  z-index: 10; 
+  padding: 10px; 
+  background: #1a1a1a;
 }
+
 .work-phase-items .work-phase-item h4 {
   font-size: 20px;
   font-weight: 600;
@@ -777,6 +817,7 @@ p.user-text-dis {
   padding-right: 80px;
   justify-content: flex-end;
   cursor: pointer;
+  animation: movebottomDown 3s ease-in-out infinite;
 }
 .scroll-top-btn img {
   width: 24px;
