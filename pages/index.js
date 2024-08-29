@@ -32,9 +32,9 @@ function Home() {
           <h1 className="hero-title title-item3">Designer</h1>
           <div className="hero-scroll-item" onClick={scrollToBottom}>
             <p>scroll to find more</p>
-            <span>
+            <div>
               <img src="/assets/images/icons/arrow-down.svg" alt="" />
-            </span>
+            </div>
           </div>
         </div>
       </section>

@@ -100,6 +100,9 @@ body {
   padding: 0px;
   outline: 0px;
 }
+p{
+  margin-bottom: 0 !important;
+}
 
 img {
   vertical-align: middle;
@@ -316,7 +319,7 @@ button:focus {
   color: var(--white-color);
   opacity: 48%;
 }
-.hero-scroll-item span img {
+.hero-scroll-item img {
   width: 12px;
 }
 .hero-scroll-item {

@@ -254,6 +254,9 @@
     top: 12%;
     right: 35%;
   }
+  .hero-scroll-item {
+    bottom: 2%;
+  }
   .work-web-card {
     width: 300px;
   }
