@@ -261,4 +261,7 @@
     top: 34%;
     right: 13%;
   }
+  .hero-scroll-item span {
+    line-height: 1;
+  }
 }
