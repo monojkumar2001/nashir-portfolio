@@ -727,6 +727,9 @@ p.user-text-dis {
   text-decoration: underline;
   font-size: 16px;
 }
+.section-header a:hover {
+  color: var(--white-color);
+}
 .blog-wrapper {
   padding-top: 45px;
 }
