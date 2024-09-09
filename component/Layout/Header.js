@@ -13,8 +13,8 @@ function Header() {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/assets/images/example.png"; // Specify the correct path to your PDF file
-    link.download = "example.png"; // Set the name of the downloaded file
+    link.href = "/assets/images/nasir-ahmed.pdf"; // Specify the correct path to your PDF file
+    link.download = "nasir-ahmed.pdf"; // Set the name of the downloaded file
     link.click();
   };
   return (
@@ -102,22 +102,22 @@ function Header() {
                   <h4>nasir-ahmed03</h4>
                   <ul className="social-media-list">
                     <li>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/nasir-ahmed03/">
                         <img src="/assets/images/icons/linkedin1.svg" alt="" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://medium.com/@nasir-ahmed03">
                         <img src="/assets/images/icons/medium.svg" alt="" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.behance.net/nasir-ahmed03">
                         <img src="/assets/images/icons/behance.svg" alt="" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.instagram.com/nasir_ahmed03">
                         <img src="/assets/images/icons/instragram.svg" alt="" />
                       </a>
                     </li>

@@ -14,6 +14,9 @@
   }
 }
 @media screen and (max-width: 992px) {
+  .work-phase-items {
+    gap: 30px;
+  }
   .hero-title {
     font-size: 73px;
   }

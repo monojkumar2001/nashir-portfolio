@@ -44,9 +44,11 @@ function Home() {
           <div className="about-wrapper ">
             <div className="section-header">
               <p>About me</p>
-              <span>
-                <img src="/assets/images/icons/bottom-arrow.svg " alt="" />
-              </span>
+              <Link href={"#courses"}>
+                <span>
+                  <img src="/assets/images/icons/bottom-arrow.svg " alt="" />
+                </span>
+              </Link>
             </div>
             <div className="about-content">
               <div className="about-title">
@@ -96,9 +98,11 @@ function Home() {
                 <p>Design Study</p>
                 <h4>Completed UX/UI Courses</h4>
               </div>
-              <span>
-                <img src="/assets/images/icons/bottom-arrow.svg " alt="" />
-              </span>
+              <Link href={"#experience"}>
+                <span>
+                  <img src="/assets/images/icons/bottom-arrow.svg " alt="" />
+                </span>
+              </Link>
             </div>
             <div className="design-content cpt-7">
               <div className="design-content-item">
@@ -160,9 +164,11 @@ function Home() {
                 <p>Jobs</p>
                 <h4>Work Experience</h4>
               </div>
-              <span>
-                <img src="/assets/images/icons/bottom-arrow.svg " alt="" />
-              </span>
+              <Link href={"#achievement"}>
+                <span>
+                  <img src="/assets/images/icons/bottom-arrow.svg " alt="" />
+                </span>
+              </Link>
             </div>
             <div className="design-content cpt-7">
               <div className="design-content-item">
@@ -190,9 +196,11 @@ function Home() {
                 <p>Achievement and </p>
                 <h4>Awards</h4>
               </div>
-              <span>
-                <img src="/assets/images/icons/bottom-arrow.svg " alt="" />
-              </span>
+              <Link href={"#project"}>
+                <span>
+                  <img src="/assets/images/icons/bottom-arrow.svg " alt="" />
+                </span>
+              </Link>
             </div>
             <div className="achievement-card-items cpt-7">
               <div className="achievement-card">
@@ -227,9 +235,11 @@ function Home() {
                 <h4>Projects</h4>
               </div>
               <div className="section-title section-title-work">
-                <span>
-                  <img src="/assets/images/icons/bottom-arrow.svg " alt="" />
-                </span>
+                <Link href={"#work_process"}>
+                  <span>
+                    <img src="/assets/images/icons/bottom-arrow.svg " alt="" />
+                  </span>
+                </Link>
                 <h3>Web</h3>
               </div>
             </div>
@@ -392,7 +402,7 @@ function Home() {
                     <img src="/assets/images/home/mobile-1.png" alt="" />
                   </div>
                   <div className="work-web-content">
-                    <Link href={"javascript:;"}>
+                    <Link href={"#"}>
                       <a className="work-web-title" target="_blank">
                         RideCentric Driver App
                       </a>
@@ -490,9 +500,11 @@ function Home() {
                 <h5>For RL Event Managemnet</h5>
               </div>
             </div>
-            <span>
-              <img src="/assets/images/icons/bottom-arrow.svg " alt="" />
-            </span>
+            <Link href={"#blogs"}>
+              <span>
+                <img src="/assets/images/icons/bottom-arrow.svg " alt="" />
+              </span>
+            </Link>
           </div>
           <div className="work-phase-items ">
             <div className="work-phase-item">
@@ -829,17 +841,11 @@ function Home() {
               <div className="ideate-site-desktop-img">
                 <img src="/assets/images/home/information-desktop.png" alt="" />
               </div>
-              <div className="ideate-site-mobile-img">
-                <img src="/assets/images/home/information-mobile.png" alt="" />
-              </div>
             </div>
             <div className="ideate-content-item cpt-7">
               <h1 className="section-title cmb-4">User Flow</h1>
               <div className="ideate-site-desktop-img">
                 <img src="/assets/images/home/flow-desktop.png" alt="" />
-              </div>
-              <div className="ideate-site-mobile-img">
-                <img src="/assets/images/home/flow-mobile.png" alt="" />
               </div>
             </div>
           </div>
@@ -953,10 +959,10 @@ function Home() {
               spaceBetween={27}
               slidesPerView={4}
               loop={true}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
+              // autoplay={{
+              //   delay: 2500,
+              //   disableOnInteraction: false,
+              // }}
               breakpoints={{
                 320: {
                   slidesPerView: 1.1,

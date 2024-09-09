@@ -100,7 +100,7 @@ body {
   padding: 0px;
   outline: 0px;
 }
-p{
+p {
   margin-bottom: 0 !important;
 }
 
@@ -335,7 +335,7 @@ button:focus {
     bottom: 10%;
   }
   50% {
-    bottom: 100px; 
+    bottom: 100px;
   }
   0% {
     bottom: 10%;
@@ -348,6 +348,9 @@ button:focus {
 }
 .section-header p {
   opacity: 48%;
+}
+.section-header span {
+  cursor: pointer;
 }
 .section-header span img {
   width: 24px;
@@ -495,9 +498,9 @@ button:focus {
 .section-title-work {
   text-align: end;
 }
-.section-title-work h3{
-font-size: 40px;
-margin-top: 20px;
+.section-title-work h3 {
+  font-size: 40px;
+  margin-top: 20px;
 }
 .work-web-card-item {
   display: grid;
@@ -584,11 +587,11 @@ margin-top: 20px;
   display: flex;
   align-items: center;
   gap: 80px;
-  position: -webkit-sticky; 
+  position: -webkit-sticky;
   position: sticky;
-  top: 78px; 
-  z-index: 10; 
-  padding: 10px; 
+  top: 78px;
+  z-index: 10;
+  padding: 10px;
   background: #1a1a1a;
 }
 

@@ -48,22 +48,22 @@ function Footer() {
               </Link>
               <ul className="social-media-list">
                 <li>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/nasir-ahmed03/">
                     <img src="/assets/images/icons/linkedin1.svg" alt="" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://medium.com/@nasir-ahmed03">
                     <img src="/assets/images/icons/medium.svg" alt="" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.behance.net/nasir-ahmed03">
                     <img src="/assets/images/icons/behance.svg" alt="" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/nasir_ahmed03">
                     <img src="/assets/images/icons/instragram.svg" alt="" />
                   </a>
                 </li>
