@@ -732,6 +732,80 @@ p.user-text-dis {
 }
 .blog-wrapper {
   padding-top: 45px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  height: 293px;
+  top: 8.1%;
+}
+.explore-wrapper-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+}
+.button-prev,
+.button-next {
+  cursor: pointer;
+  position: relative;
+  padding-left: 4px;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: relative;
+  padding-left: 4px;
+}
+.button-prev,
+.button-next{
+  content: "";
+  cursor: pointer;
+  height: 100%;
+  background: linear-gradient(
+    239.94deg,
+    rgba(0, 0, 0, 0.3) 19.91%,
+    rgba(255, 255, 255, 0) 149.06%
+  );
+  width: 32px;
+  display: flex;
+  align-items: center;
+}
+.prev,
+.next{
+  content: "";
+  cursor: pointer;
+  height: 100%;
+  background: linear-gradient(
+    239.94deg,
+    rgba(0, 0, 0, 0.3) 19.91%,
+    rgba(255, 255, 255, 0) 149.06%
+  );
+  width: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.button-prev img,
+.button-next img {
+  width: 24px; 
+  height: 24px; 
+}
+.prev img,
+.next img {
+  width: 24px; 
+  height: 24px; 
 }
 .blog-card-item .blog-content {
   padding: 17px 0;
@@ -830,4 +904,11 @@ p.user-text-dis {
 }
 .scroll-top-btn img {
   width: 24px;
+}
+.footer-logo{
+  width: 60px;
+  margin-bottom: 20px;
+}
+.footer-logo img{
+ width: 100%;
 }

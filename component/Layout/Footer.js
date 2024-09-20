@@ -34,6 +34,11 @@ function Footer() {
           </div>
           <div className="footer-wrapper">
             <div className="footer-left">
+              <Link href={'/'}>
+              <div className="footer-logo">
+              <img  src="/assets/images/icons/logo.svg" alt=""/>
+              </div>
+              </Link>
               <h1>
                 Nasir
                 <br /> Ahmed
@@ -48,22 +53,22 @@ function Footer() {
               </Link>
               <ul className="social-media-list">
                 <li>
-                  <a href="https://www.linkedin.com/in/nasir-ahmed03/">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nasir-ahmed03/">
                     <img src="/assets/images/icons/linkedin1.svg" alt="" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://medium.com/@nasir-ahmed03">
+                  <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@nasir-ahmed03">
                     <img src="/assets/images/icons/medium.svg" alt="" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.behance.net/nasir-ahmed03">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/nasir-ahmed03">
                     <img src="/assets/images/icons/behance.svg" alt="" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/nasir_ahmed03">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nasir_ahmed03">
                     <img src="/assets/images/icons/instragram.svg" alt="" />
                   </a>
                 </li>

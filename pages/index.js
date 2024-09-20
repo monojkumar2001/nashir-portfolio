@@ -4,9 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/autoplay";
-import SwiperCore, { Autoplay } from "swiper";
-SwiperCore.use([Autoplay]);
+import { Navigation } from "swiper";
 function Home() {
   const scrollToBottom = () => {
     window.scrollTo({
@@ -958,11 +956,12 @@ function Home() {
             <Swiper
               spaceBetween={27}
               slidesPerView={4}
+              navigation={{
+                nextEl: ".button-next",
+                prevEl: ".button-prev",
+              }}
+              modules={[Navigation]}
               loop={true}
-              // autoplay={{
-              //   delay: 2500,
-              //   disableOnInteraction: false,
-              // }}
               breakpoints={{
                 320: {
                   slidesPerView: 1.1,
@@ -1072,6 +1071,14 @@ function Home() {
                 </div>
               </SwiperSlide>
             </Swiper>
+            <div className="arrow-wrapper">
+              <div className="button-prev">
+                <img src="/assets/images/home/arrow-left.png" alt="" />
+              </div>
+              <div className="button-next">
+                <img src="/assets/images/home/arrow-right.png" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -1091,10 +1098,11 @@ function Home() {
               spaceBetween={27}
               slidesPerView={4}
               loop={true}
-              autoplay={{
-                delay: 3500,
-                disableOnInteraction: false,
+              navigation={{
+                nextEl: ".next",
+                prevEl: ".prev",
               }}
+              modules={[Navigation]}
               breakpoints={{
                 320: {
                   slidesPerView: 1.1,
@@ -1143,6 +1151,14 @@ function Home() {
                 </div>
               </SwiperSlide>
             </Swiper>
+            <div className=" explore-wrapper-nav">
+              <div className="prev">
+                <img src="/assets/images/home/arrow-left.png" alt="" />
+              </div>
+              <div className="next">
+                <img src="/assets/images/home/arrow-right.png" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
