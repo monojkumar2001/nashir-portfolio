@@ -43,13 +43,13 @@ function Footer() {
                 Nasir
                 <br /> Ahmed
               </h1>
-              <a href="mailto:ahmednasir007.an@gmail.com">
-                ahmednasir007.an@gmail.com
-              </a>
+            
             </div>
             <div className="footer-right">
               <Link href={"https://nasirahmed.design"}>
-                <a className="footer-user-title">nasirahmed.design</a>
+                <a className="footer-user-title" href="mailto:ahmednasir007.an@gmail.com">
+                ahmednasir007.an@gmail.com
+              </a>
               </Link>
               <ul className="social-media-list">
                 <li>

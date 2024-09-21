@@ -871,11 +871,14 @@ p.user-text-dis {
 }
 
 .footer-right .footer-user-title {
-  font-size: 64px;
+  font-size: 40px;
   color: var(--white-color);
   text-decoration: underline;
   font-weight: 600;
   line-height: 130%;
+}
+.footer-right .footer-user-title:hover{
+  color: var(--white-color);
 }
 
 .footer-right {
